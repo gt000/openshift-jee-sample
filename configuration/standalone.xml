@@ -34,7 +34,7 @@
             <security-realm name="SslRealm">
     <server-identities>
             <ssl>
-                <keystore path="/secrets/tls.jks" relative-to="${jboss.server.base.dir}" keystore-password="mypasswd"/>
+                <keystore path="/secrets/tls.jks" relative-to="jboss.server.base.dir" keystore-password="mypasswd"/>
         </ssl>
     </server-identities>
 </security-realm>

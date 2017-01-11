@@ -56,13 +56,6 @@
                     <properties path="application-roles.properties" relative-to="jboss.server.config.dir"/>
                 </authorization>
             </security-realm>
-        <security-realm name="SslRealm">
-            <server-identities>
-                    <ssl>
-                        <keystore path="tls.jks" relative-to="/opt/app_root/src/secrets" keystore-password="passwd"/>
-                    </ssl>
-            </server-identities>
-        </security-realm>
         </security-realms>
         <audit-log>
             <formatters>

@@ -56,7 +56,6 @@
                     <properties path="application-roles.properties" relative-to="jboss.server.config.dir"/>
                 </authorization>
             </security-realm>
-        </security-realms>
         <security-realm name="SslRealm">
             <server-identities>
                     <ssl>
@@ -64,6 +63,7 @@
                     </ssl>
             </server-identities>
         </security-realm>
+        </security-realms>
         <audit-log>
             <formatters>
                 <json-formatter name="json-formatter"/>
